@@ -6,4 +6,4 @@
 
 ### Node ###
 # Dependency directories
-frontend/node_modules/
+node_modules/
