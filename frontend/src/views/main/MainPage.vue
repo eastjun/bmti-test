@@ -17,8 +17,8 @@
         <img width="auto" height="150" class="ml-7" :src="require('@/assets/elements/떡볶1.png')" />
       </div>
     </v-sheet>
-    <v-sheet color="#adadad" class="px-6 pt-8 pb-12 relative">
-      <div class="max-width-sm">
+    <v-sheet color="#adadad" class="pl-6 pt-8 pr-0">
+      <div class="max-width-sm relative pb-12">
         <div class="d-flex relative">
           <v-sheet color="transparent" dark>
             <h4 class="text-h4">
@@ -30,8 +30,8 @@
           </v-sheet>
         </div>
         <v-btn class="mt-4" large rounded color="#4E4E4E" dark>같이 먹을 사람 찾기</v-btn>
+        <img width="auto" height="130" class="absolute right-0 bottom-0" :src="require('@/assets/elements/1_흐물.png')" />
       </div>
-      <img width="auto" height="130" class="absolute right-0 bottom-0" :src="require('@/assets/elements/1_흐물.png')" />
     </v-sheet>
     <div class="max-width-sm d-flex justify-center">
       <img width="100%" :src="require('@/assets/elements/떡볶이2.png')" />
@@ -47,9 +47,6 @@ export default {
 </script>
 
 <style scoped>
-.main-image {
-  left: 30px;
-}
 .footer {
   max-width: 600px;
   position: fixed;
