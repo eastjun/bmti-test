@@ -1,1 +1,1 @@
-# BMTI
+# BMTI (Bae-Min Type Indicator)
