@@ -12,6 +12,10 @@
   position: absolute;
 }
 
+.right-0 {
+  right: 0;
+}
+
 .bottom-0 {
   bottom: 0;
 }
@@ -47,4 +51,12 @@
 .max-width-sm {
   max-width: 600px;
   margin: 0 auto;
+}
+
+.border-dashed {
+  border: 1px dashed gray;
+}
+
+.right-30 {
+  right: 30px;
 }

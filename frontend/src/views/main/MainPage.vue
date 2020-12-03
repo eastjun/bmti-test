@@ -1,23 +1,41 @@
 <template>
-  <v-sheet color="primary" height="100vh" class="d-flex align-center">
-    <div class="px-8">
-      <v-sheet color="primary" dark>
-        <v-img :src="require('@/assets/elements/새우배달이.png')" width="250" class="absolute shrimp-baedal-image" />
-        <div class="mb-2">최고의 먹궁합을 찾아라!</div>
-        <div class="font-hanna text-h1 relative">
-          BM <br />
-          MBTI
-          <v-img :src="require('@/assets/elements/x.png')" class="absolute bottom-10 left-0" />
+  <v-sheet height="100vh">
+    <v-toolbar color="#313131" class="w-100" flat dark>
+      <v-toolbar-title class="w-100">
+        <div class="w-100 text-center">
+          뭐먹지
         </div>
-        <div class="text-h5 mt-6 mb-8">
-          나를 알고 <br />
-          너를 알면 <br />
-          우린 <br />
-          먹메이트!
+      </v-toolbar-title>
+    </v-toolbar>
+    <v-sheet color="#313131" class="px-6 pt-8 pb-12" dark>
+      <div class="max-width-sm d-flex">
+        <h3 class="text-h3">
+          오늘은 <br />
+          떡볶이 <br />
+          어때요
+        </h3>
+        <img width="auto" height="150" class="ml-7" :src="require('@/assets/elements/떡볶1.png')" />
+      </div>
+    </v-sheet>
+    <v-sheet color="#adadad" class="px-6 pt-8 pb-12 relative">
+      <div class="max-width-sm">
+        <div class="d-flex relative">
+          <v-sheet color="transparent" dark>
+            <h4 class="text-h4">
+              뭐 먹지보다 중요한
+            </h4>
+            <h3 class="text-h3">
+              누구랑 먹지?
+            </h3>
+          </v-sheet>
         </div>
-      </v-sheet>
-      <v-btn to="/bmti" x-large color="white" class="rounded-xl">내 BMTI 확인하기</v-btn>
-      <v-img :src="require('@/assets/elements/냥이_손.png')" width="200" class="absolute cat-hand-image" />
+        <v-btn class="mt-4" large rounded color="#4E4E4E" dark>같이 먹을 사람 찾기</v-btn>
+      </div>
+      <img width="auto" height="130" class="absolute right-0 bottom-0" :src="require('@/assets/elements/1_흐물.png')" />
+    </v-sheet>
+    <div class="max-width-sm d-flex justify-center">
+      <img width="100%" :src="require('@/assets/elements/떡볶이2.png')" />
+      <img width="100%" class="footer" :src="require('@/assets/elements/footer.png')" />
     </div>
   </v-sheet>
 </template>
@@ -29,14 +47,12 @@ export default {
 </script>
 
 <style scoped>
-.shrimp-baedal-image {
-  top: 20px;
-  right: -60px;
+.main-image {
+  left: 30px;
 }
-
-.cat-hand-image {
-  bottom: -50px;
-  right: 20px;
-  transform: rotate(90deg);
+.footer {
+  max-width: 600px;
+  position: fixed;
+  bottom: 0;
 }
 </style>

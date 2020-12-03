@@ -234,10 +234,6 @@ export default {
   background-color: #2ac1bc;
 }
 
-.border-dashed {
-  border: 1px dashed gray;
-}
-
 .lulu-baemin {
   z-index: 999;
   top: 0;
