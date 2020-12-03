@@ -29,7 +29,7 @@
             </h3>
           </v-sheet>
         </div>
-        <v-btn class="mt-4" large rounded color="#4E4E4E" dark>같이 먹을 사람 찾기</v-btn>
+        <v-btn to="/bmti" class="mt-4" large rounded color="#4E4E4E" dark>같이 먹을 사람 찾기</v-btn>
         <img width="auto" height="130" class="absolute right-0 bottom-0" :src="require('@/assets/elements/1_흐물.png')" />
       </div>
     </v-sheet>

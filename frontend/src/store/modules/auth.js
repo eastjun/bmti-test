@@ -41,7 +41,6 @@ const actions = {
     try {
       const { data } = await UserService.login({ email, password })
       commit(SET_USER, data)
-      // localStorage.accessToken = data
       localStorage.setItem('user', data)
     } catch (e) {
       throw new Error(e)

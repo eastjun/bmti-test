@@ -1,6 +1,6 @@
 import ApiService from '@/api'
 
-const BASE_URL = 'http://15.165.237.32:8080/api/user'
+const BASE_URL = 'http://52.78.96.131:8080/api/user'
 
 const UserService = {
   login({ email, password }) {
