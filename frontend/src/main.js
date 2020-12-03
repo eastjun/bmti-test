@@ -4,7 +4,11 @@ import vuetify from './plugins/vuetify'
 import router from '@/router'
 import store from '@/store'
 import '@/styles/index.scss'
+import VueCarousel from 'vue-carousel'
 
+// import '@/plugins/socket'
+
+Vue.use(VueCarousel)
 Vue.config.productionTip = false
 
 new Vue({

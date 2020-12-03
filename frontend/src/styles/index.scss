@@ -1,1 +1,50 @@
-//@import './app.scss';
+@import './fonts.scss';
+
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.bottom-10 {
+  bottom: 10px;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
+.primary-text-color {
+  color: #2ac1bc;
+}
+
+.max-width-sm {
+  max-width: 600px;
+  margin: 0 auto;
+}

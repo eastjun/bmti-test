@@ -4,3 +4,7 @@ export const SNACKBAR_MESSAGES = {
     FAIL: '😰 오류가 발생하였습니다'
   }
 }
+
+export const BAEMIN_COLOR = '#2AC1BC'
+
+export const PUSH_MSG_DATA = 'pushMsgData'

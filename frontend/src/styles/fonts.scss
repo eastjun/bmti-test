@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'hanna';
+  src: url('~@/assets/fonts/BMHANNAPro.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'hannaair';
+  src: url('~@/assets/fonts/BMHANNAAir.otf') format('truetype');
+}
+
+.font-hanna {
+  font-family: hanna, 'Noto Sans KR', 'Roboto', sans-serif, 'Apple SD Gothic Neo' !important;
+}
+
+.font-hanna-air {
+  font-family: hannaair, 'Noto Sans KR', 'Roboto', sans-serif, 'Apple SD Gothic Neo' !important;
+}
+
+.v-application {
+  .text-h1,
+  .text-h2,
+  .text-h3,
+  .text-h4,
+  .text-h5,
+  .text-h6 {
+    font-family: hanna, 'Noto Sans KR', 'Roboto', sans-serif, 'Apple SD Gothic Neo' !important;
+  }
+}
+
+.text-grey {
+  color: #adadad;
+}
